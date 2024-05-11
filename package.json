@@ -1,0 +1,15 @@
+{
+  "name": "01freq_count_mult_pointers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "average-pair.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}

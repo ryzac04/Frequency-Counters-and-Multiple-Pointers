@@ -1,4 +1,6 @@
-describe("constructNote", function() {
+const constructNote = require("./construct-note");
+
+describe("constructNote", function () {
   it("should return false for empty letters string", function() {
     expect(constructNote("abcd", "")).toBe(false);
   });
