@@ -1,4 +1,6 @@
-describe("pivotIndex", function() {
+const pivotIndex = require("./pivot-index");
+
+describe("pivotIndex", function () {
   it("should return a pivot index if it exists", function() {
     expect(pivotIndex([1, 2, 1, 6, 3, 1])).toBe(3); // 3
   });
